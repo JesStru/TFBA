@@ -1,0 +1,11 @@
+metadata:
+  id: "CKV2_AZURERM_01"
+  name: "Ensure no empty tags"
+  category: "CONVENTION"
+definition:
+  cond_type: "attribute"
+  attribute: "resource_name"
+  operator: "equals"
+  value: "resource_type-01"
+
+  
